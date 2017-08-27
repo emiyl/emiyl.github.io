@@ -25,8 +25,11 @@ hr {display: block; height: 1px; border: 0; border-top: 1px solid #D8DEE9; margi
 
 img {display: block; max-width: 100%; height: auto; width: auto;}
 
-#wrapper {
+#wrapper2 {
 	font-size: 70%;
+	overflow: hidden;
+}
+#wrapper1 {
 	overflow: hidden;
 }
 #first {
