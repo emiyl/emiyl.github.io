@@ -31,13 +31,13 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Musical.Pizza</string>
+	<string>Musical.Pizza Web Clip</string>
 	<key>PayloadDisplayName</key>
 	<string>Musical.Pizza</string>
 	<key>PayloadIdentifier</key>
 	<string>com.cttapp.3d6796071346901719c45061dc8dcb8b</string>
 	<key>PayloadOrganization</key>
-	<string>Christian Turkoanje</string>
+	<string>Emily</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
