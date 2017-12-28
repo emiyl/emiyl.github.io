@@ -1,0 +1,64 @@
+body {
+  color:#fff;
+  background-color:#222;
+  margin-left:20%;
+  margin-right:20%;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+		margin-left:5%;
+		margin-right:5%;
+    }
+}
+
+.box {
+	background-color:#333;
+	padding:1px;
+	border-radius: 10px;
+	border: 2px solid #444;
+}
+
+.float {margin: auto;width: 50%;}
+.float.l {float:left;}
+.float.r {float:right;}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #111;
+  color: #ccc;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
