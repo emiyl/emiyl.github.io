@@ -24,6 +24,16 @@
 		</div>
 		<br>
 		<center>
+			<div>
+				<h1>Carillon</h1>
+				<audio preload='none' id="player0" src="Carillon.mp3"></audio>
+				<div>
+					<button onclick="for(i=0; i<document.getElementsByTagName('audio').length; i++) document.getElementsByTagName('audio')[i].pause();for(i=0; i<document.getElementsByTagName('audio').length; i++) document.getElementsByTagName('audio')[i].pause();document.getElementById('player0').play()" style="vertical-align:middle"><span>Play </span></button>
+					<button onclick="for(i=0; i<document.getElementsByTagName('audio').length; i++) document.getElementsByTagName('audio')[i].pause();document.getElementById('player0').pause()" style="vertical-align:middle"><span>Pause </span></button>
+				</div>
+			</div>
+			<div style="padding-top: 2em; border-bottom: #566175 2px solid"/></div>
+			<div style="padding-top: 2em;"/></div>
 			<div class="float l">
 				<h1>1</h1>
 				<audio preload='none' id="player1" src="1.mp3"></audio>
@@ -985,4 +995,3 @@
 		</center>
 	</body>
 </html>
-
